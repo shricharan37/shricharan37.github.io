@@ -941,6 +941,7 @@ a:hover {
 --------------------------------------------------------------*/
 .work-box {
   margin-bottom: 3rem;
+  height:auto;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
