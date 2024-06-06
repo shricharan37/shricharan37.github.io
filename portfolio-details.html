@@ -61,53 +61,64 @@
   <main id="main">
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
+<style>
+  .portfolio-details .portfolio-details-slider img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 600px; /* Set a higher maximum height */
+  }
 
-        <div class="row gy-4">
+  .portfolio-details .col-lg-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
+  .portfolio-details .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-3.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
+<section id="portfolio-details" class="portfolio-details">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/wrap1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/wrap2.png" alt="">
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: App design</li>
-                <li><strong>Release</strong>: Studentverse, the official app of SASTRA University</li>
-                <li><strong>Timeline</strong>: June 2024</li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>About Studentverse Wrapped</h2>
-              <p>
-                Studentverse Wrapped is a feature designed to offer students a personalized summary of their academic performance at the end of each semester, much like Spotify Wrapped provides a yearly overview of listening habits. It includes intriguing insights and highlights based on various academic metrics such as attendance records, CGPA, SGPA, and other relevant data.
-              </p>
-            </div>
-          </div>
-
+          <div class="swiper-pagination"></div>
         </div>
-
       </div>
-    </section><!-- End Portfolio Details Section -->
+
+      <div class="col-lg-4">
+        <div class="portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: App design</li>
+            <li><strong>Release</strong>: Studentverse, the official app of SASTRA University</li>
+            <li><strong>June 2024</strong> </li>
+          </ul>
+        </div>
+        <div class="portfolio-description">
+          <h2>About Studentverse Wrapped</h2>
+          <p>
+            Studentverse Wrapped is a feature designed to offer students a personalized summary of their academic performance at the end of each semester, much like Spotify Wrapped provides a yearly overview of listening habits. It includes intriguing insights and highlights based on various academic metrics such as attendance records, CGPA, SGPA, and other relevant data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
 
