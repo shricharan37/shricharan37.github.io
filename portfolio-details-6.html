@@ -41,8 +41,7 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="hero-title mb-4">Coming Soon</h2>
-          
+          <h2 class="hero-title mb-4">UI for Admin App</h2> 	 	 	
         </div>
       </div>
     </div>
@@ -51,10 +50,67 @@
   <main id="main">
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-    </section><!-- End Portfolio Details Section -->
+ <style>
+  .portfolio-details .portfolio-details-slider img {
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 600px; /* Set a maximum height for the images */
+    max-width: 100%; /* Ensure images do not exceed the container width */
+  }
 
-  </main><!-- End #main -->
+  .portfolio-details .col-lg-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-details .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+
+<section id="portfolio-details" class="portfolio-details">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio-details-1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio-details-2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio-details-3.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: App design</li>
+            <li><strong>September 2023</strong></li>
+          </ul>
+        </div>
+        <div class="portfolio-description">
+          <h2>About Admin App</h2>
+          <p>
+            The Admin App enables team leads of various cultural and non-cultural clubs to effortlessly manage and promote their events on the Studentverse app, the official app of SASTRA University. With features like event creation and push notifications it ensures maximum student engagement and timely communication.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Portfolio Details Section -->
+<!-- End Portfolio Details Section -->
+<!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer>
@@ -64,7 +120,6 @@
           <div class="copyright-box">
             <p class="copyright">&copy; Copyright <strong>Shricharan</strong>. All Rights Reserved</p>
             <div class="credits">
-             
               Designed by <a href="https://shricharan37.github.io/">Shricharan</a>
             </div>
           </div>
